@@ -1,0 +1,93 @@
+/* General body styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8ff;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+/* Main container */
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    width: 90%;
+    max-width: 500px;
+    text-align: center;
+}
+
+/* Header styling */
+h1 {
+    font-size: 28px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* File input styling */
+form input[type="file"] {
+    display: block;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 80%;
+    text-align: center;
+}
+
+/* Button styling */
+form button {
+    background-color: #3498db;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    margin-top: 10px;
+}
+
+form button:hover {
+    background-color: #217dbb;
+}
+
+/* Prediction text styling */
+h2 {
+    font-size: 22px;
+    color: #27ae60;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+/* Uploaded image styling */
+img {
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+}
+
+/* Footer styling */
+footer {
+    margin-top: 30px;
+    font-size: 14px;
+    color: #555555;
+}
+
+/* Uploaded Image title styling */
+h3 {
+    font-size: 20px;
+    color: #2c3e50;
+    margin-top: 15px;
+    font-weight: bold;
+}
